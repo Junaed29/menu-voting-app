@@ -23,7 +23,7 @@ from django.urls import path, include  # Make sure to import include
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path('', include('menu.urls')), # We will create this file next
+    path('', include('menu.urls')),
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

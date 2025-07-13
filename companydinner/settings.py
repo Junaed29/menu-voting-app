@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-x6s+@q%1_*c095=-br@6^6c*4k%#ahm%qq24%_1w!^3$ftxp2t
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -79,7 +79,8 @@ DATABASES = {
         "NAME": "company_dinner_db",
         "USER": "postgres",
         "PASSWORD": "    ",
-        "HOST": "localhost",
+        "HOST": "host.docker.internal",  # Use 'localhost' if not using Docker
+        # "HOST": "localhost",  # Uncomment this line if not using Docker
         "PORT": "5432",
     }
 }

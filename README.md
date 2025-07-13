@@ -4,17 +4,23 @@ A Django-based web application that allows company employees to vote for their p
 
 ## 📋 Table of Contents
 
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Docker Setup](#docker-setup)
-- [Usage](#usage)
-- [API Endpoints](#api-endpoints)
-- [Database Schema](#database-schema)
-- [Contributing](#contributing)
-- [License](#license)
+- [Features](#-features)
+- [Tech Stack](#️-tech-stack)
+- [Project Structure](#-project-structure)
+- [Prerequisites](#-prerequisites)
+- [Installation](#-installation)
+- [Docker Setup](#-docker-setup)
+- [Usage](#-usage)
+- [API Endpoints](#️-api-endpoints)
+- [Database Schema](#️-database-schema)
+- [Frontend Features](#-frontend-features)
+- [Configuration](#-configuration)
+- [Security Features](#-security-features)
+- [Deployment Considerations](#-deployment-considerations)
+- [Contributing](#-contributing)
+- [Development Notes](#-development-notes)
+- [License](#-license)
+- [Support](#-support)
 
 ## ✨ Features
 
@@ -328,7 +334,7 @@ For production Docker deployment:
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 📞 Support
 
